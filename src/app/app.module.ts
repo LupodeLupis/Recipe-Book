@@ -20,9 +20,11 @@ import { RecipesComponent } from './modules/recipe-book/recipes/recipes.componen
     HeaderComponent,
     ShoppingEditComponent,
     RecipesComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    // FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

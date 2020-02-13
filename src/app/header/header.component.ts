@@ -1,5 +1,5 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
-
+import { NavBarDirective } from '../shared/directives/navbar.directive';
 @Component({
     selector: 'app-header',
     templateUrl: './header.component.html'

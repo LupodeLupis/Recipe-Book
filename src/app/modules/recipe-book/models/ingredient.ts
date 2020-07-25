@@ -1,7 +1,10 @@
+import { Ingredient } from 'src/app/shared/model/ingredients';
+
 export interface Recipe {
     name: string;
     description:string;
     imgeURL: string;
+    ingredients: Ingredient [];
 }
 
 /*export class Recipe {

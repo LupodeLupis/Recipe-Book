@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { ShoppingEditComponent } from './modules/shopping-list/components/shopping-list/shopping-edit/shopping-edit.component';
 import { RecipesComponent } from './modules/recipe-book/recipes/recipes.component';
 import { NavBarDirective } from './shared/directives/navbar.directive';
+import { ShoppingListService } from './modules/shopping-list/services/shopping-list.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { NavBarDirective } from './shared/directives/navbar.directive';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
